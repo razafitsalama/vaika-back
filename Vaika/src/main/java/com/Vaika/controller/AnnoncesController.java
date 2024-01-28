@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/annonces")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://vam-safidy-nyx.netlify.app/")
 public class AnnoncesController {
 
     @Autowired

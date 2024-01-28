@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/messages")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://vam-safidy-nyx.netlify.app/")
 public class MessageController {
 
     @Autowired
